@@ -1,4 +1,4 @@
-# 🔧 SESSION RULESET: MANUAL OS (Public Edition) — Rev 20250617
+# 🔧 SESSION RULESET: MANUAL OS (Public Edition) — Rev 20250618
 
 ## RULE_00: Termination Marker Check
 
