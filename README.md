@@ -11,10 +11,11 @@ This repository contains the public version of the **Manual OS**: a paste-at-sta
 The Manual OS attempts to enable:
 
 - Reliable multi-step workflows across a single chat
+- Enhanced problem surfacing by ChatGPT
+- More useful feedback on produced content
 - Text freezing and lossless retrieval
 - Token usage monitoring and re-anchoring
 - Clear separation between proposals and approvals
-- Optional extensions for dialogue co-writing and scoring
 
 All of this is done in-chat—ideal for mobile workflows or users seeking more consistency from ChatGPT without building a plugin or app.
 
@@ -30,13 +31,13 @@ The author was building complex projects with ChatGPT and began running into con
 
 To solve this, the author began pasting a ruleset manually at the beginning of each session. This paste-block governed how ChatGPT behaved, processed proposals, froze text for later reference, and warned about approaching token limits. The author refers to this system as the **Manual OS**—a workaround method for regaining control over structure, output, and consistency without external tools.
 
-This system enables projects of high complexity to survive ChatGPT’s default flattening and helps enforce boundaries in a flexible, in-chat way.
+This system appears to help enable projects of higher complexity to survive ChatGPT’s default flattening and helps enforce boundaries in a flexible, in-chat way.
 
 ---
 
 ## How to Use It
 
-1. Copy the `SESSION RULESET` file from this repo.
+1. Copy the `SESSION RULESET` file from this repo. I save the text on my notes app and copy and paste into the ChatGPT app from there.
 2. Paste it into the start of any ChatGPT session.
 3. Begin work as usual—ChatGPT will follow the ruleset exactly.
 
@@ -44,12 +45,7 @@ This system enables projects of high complexity to survive ChatGPT’s default f
 
 ## Token Cost
 
-The full public ruleset (as of Rev 20250618) costs **~1,650 tokens**, well under 10% of the total context limit in GPT-4 and GPT-4o. This leaves room for most tasks while still enforcing structured behavior.
-
-**Users may reduce token cost** by removing rules they don’t need:
-- The validation marker rule (RULE_00) can be removed entirely.
-- Optional rules (e.g., dual scoring, dialogue feedback) can be omitted.
-- Examples can be trimmed to reduce size further.
+The full public ruleset (as of Rev 20250618) costs ~700 tokens. My personal rule set that is more tailored to my needs takes up about twice that.
 
 ---
 
