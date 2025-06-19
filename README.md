@@ -54,13 +54,4 @@ The full public ruleset (as of Rev 20250618) costs ~700 tokens. My personal rule
 **Author:** Tim Shaw  
 **License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — Attribution required, no commercial use.
 
----
-
-## Contributing
-
-This repository is intentionally minimal. If interest grows, the author may expand it to include:
-- Community variants of the Manual OS
-- Plugins or wrappers
-- Templates for structured workflows
-
-For now, the core concept is simple: paste a ruleset, gain a little more control.
+This version of the Manual OS was developed independently through my own testing and collaboration with ChatGPT. To my knowledge, no identical system has been publicly released under open license, but similar approaches may exist. If you know of any, feel free to link them.
