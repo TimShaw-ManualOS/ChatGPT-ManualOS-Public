@@ -1,14 +1,14 @@
 # Manual OS: Public Edition  
-**Rev: 20250618**  
+**Rev: 20250619**  
 _A lightweight method for controlling ChatGPT behavior using a pasted rule block._
 
 ---
 
 ## What This Is
 
-This repository contains the public version of the **Manual OS**: a paste-at-start ruleset designed to give ChatGPT users consistent, high-quality behavior without relying on memory saves or external tools.
+This repository contains the public version of the **Manual OS**: a paste-at-start ruleset designed to give ChatGPT users more consistent behavior without relying on memory saves or external tools.
 
-The Manual OS enables:
+The Manual OS attempts to enable:
 
 - Reliable multi-step workflows across a single chat
 - Text freezing and lossless retrieval
@@ -39,7 +39,6 @@ This system enables projects of high complexity to survive ChatGPT’s default f
 1. Copy the `SESSION RULESET` file from this repo.
 2. Paste it into the start of any ChatGPT session.
 3. Begin work as usual—ChatGPT will follow the ruleset exactly.
-4. If using optional features (like dual scoring or co-writing dialogue), simply reference them in your instructions.
 
 ---
 
@@ -68,4 +67,4 @@ This repository is intentionally minimal. If interest grows, the author may expa
 - Plugins or wrappers
 - Templates for structured workflows
 
-For now, the core concept is simple: paste a ruleset, gain control.
+For now, the core concept is simple: paste a ruleset, gain a little more control.
